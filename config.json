@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "global_timeout_seconds": 5,
+    "probe_interval_seconds": 10
+  },
+  "endpoints": [
+    {
+      "name": "GitHub API Gateway",
+      "url": "https://api.github.com",
+      "expected_status": 200
+    },
+    {
+      "name": "Anthropic Console",
+      "url": "https://console.anthropic.com",
+      "expected_status": 200
+    },
+    {
+      "name": "Google Main Entry",
+      "url": "https://www.google.com",
+      "expected_status": 200
+    }
+  ]
+}
